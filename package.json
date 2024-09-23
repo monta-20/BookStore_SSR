@@ -1,0 +1,25 @@
+{
+  "name": "storebook",
+  "version": "1.0.0",
+  "description": "Store Book is a web application designed for managing and browsing books, built with Server-Side Rendering (SSR) using Express.js and MongoDB for efficient data handling and storage.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monta-20/BookStore_SSR.git"
+  },
+  "author": "Montassar_BenBrahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monta-20/BookStore_SSR/issues"
+  },
+  "homepage": "https://github.com/monta-20/BookStore_SSR#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "path": "^0.12.7"
+  }
+}
