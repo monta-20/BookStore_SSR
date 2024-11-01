@@ -25,7 +25,7 @@ var Store=new MongoDbStore({
 }) 
 app.use(flash())
 app.use(session({
-    secret:'this is my secret key dfjkbnjdfnbhjshdvbshdvsd',
+    secret:'this is my secret key',
 
     store:Store,
     resave: true,
